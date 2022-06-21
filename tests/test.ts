@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-import { Bot } from './Bot'
+import { Bot } from '../src/Bot'
 dotenv.config()
 
 const {

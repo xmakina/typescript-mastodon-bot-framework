@@ -15,7 +15,7 @@ export default class NotificationHandler implements IHandler<Notification> {
         PubSub.publish('mention', data);
         break
       default:
-        throw new Error("Method not implemented.");
+        console.log(`Unknown type, ${data.type}`);
     }
   }
 }
